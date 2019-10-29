@@ -18,3 +18,5 @@ minhaTarefa.then((idadeValida)=>{
 }).catch((error)=>{
   console.log(error)
 })
+
+(async ()=> console.log(await minhaTarefa()))()
