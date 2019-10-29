@@ -18,7 +18,7 @@ export function __translate(term) {
     //Check if has registered terms in current i18nLocale;
     if (TERMS[i18nLocale]){
       
-      //Return the registered or empty string to prevent error
+      //Return the registered or empty string to prevent error from the application
       return TERMS[i18nLocale][term] || '';
 
     } else {
